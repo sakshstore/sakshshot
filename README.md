@@ -20,7 +20,7 @@ You can use the package as a library in your Node.js application.
 
 
 ```
-const takeScreenshot = require('screenshot-package');
+const sakshshot = require('sakshshot');
 const fs = require('fs');
 const path = require('path');
 
@@ -42,7 +42,7 @@ return image;
 (async () => {
 try {
 const url = 'https://example.com';
-const image = await captureScreenshot(url);
+const image = await sakshshot(url);
 console.log('Screenshot captured successfully');
 // Do something with the image, e.g., save it, send it in a response, etc.
 } catch (error) {
@@ -51,49 +51,23 @@ console.error('Error capturing screenshot:', error);
 })();
 
 ```
+ 
 
-As a Command-Line Tool
-You can also use the package as a command-line tool.
-
-screenshot <url> <output-path>
-
-Example:
-
-screenshot https://example.com screenshot.png
-
-Development
-Setup
-Clone the repository:
-git clone https://github.com/your-username/screenshot-package.git
-cd screenshot-package
-
-Install dependencies:
-npm install
-
-Running Locally
-To link the package locally for testing:
-
-npm link
-
-You can then use the screenshot command to take a screenshot.
-
-Testing
+### Testing
 To run the example usage:
 
+```
 node main.js
+```
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributing
+### Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
+ 
 
-Acknowledgements
-•  https://github.com/puppeteer/puppeteer - Headless Chrome Node.js API
-
-Contact
+### Contact
 For any questions or feedback, please contact mailto:your-email@example.com.
 
-
-Feel free to customize the `README.md` file further to fit your specific needs. If you have any more questions or need additional assistance, feel free to ask!
-
+ 
