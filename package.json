@@ -1,0 +1,31 @@
+{
+  "name": "sakshshot",
+  "version": "1.0.5",
+  "description": "A Node.js package to take screenshots of a given URL using Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node preinstall.js",
+    "postinstall": "node postinstall.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "screenshot",
+    "puppeteer",
+    "nodejs",
+    "automation",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakshstore/sakshshot"
+  },
+  "bugs": {
+    "url": "https://github.com/sakshstore/sakshshot/issues"
+  },
+  "homepage": "https://github.com/sakshstore/sakshshot#readme",
+  "dependencies": {
+    "puppeteer": "^19.0.0"
+  }
+}
